@@ -11,11 +11,20 @@ function App() {
   function onClickHandler(){
     setCount(count+1)
   }
+  function decreaseCount(){
+    setCount(count-1)
+  }
+  function resetCount(){
+    setCount(0)
+  }
 
   //component
   return (
     <div >
-      <button id="btn" onClick={onClickHandler}>Count {count}</button>
+      <h1>{count}</h1>
+      <button id="btn" onClick={onClickHandler}>Increase Count </button>
+      <button  onClick={decreaseCount}>Decrease Count</button>
+      <button onClick={resetCount}>Reset Count</button>
     </div>
   );}
   
