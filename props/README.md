@@ -1,1 +1,1 @@
-learnt about hooks mainly usestate and useeffect.
+learnt about children in props
