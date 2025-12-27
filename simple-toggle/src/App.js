@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 import ThemeToggle from './toggle-comp';
 
-function App() {
-  return (
+function App(){
+  return <div>
     <ThemeToggle></ThemeToggle>
-  )
-  
+  </div>
+
 }
 
 export default App;
